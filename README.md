@@ -23,7 +23,7 @@ Backend: Node.js, Express.js
 Database: MongoDB
 
 Installation
-git clone 
+git clone https://github.com/itsAcchu/MERN-Collage-Management-System.git
 Open 2 terminals in separate windows/tabs.
 
 Terminal 1: Setting Up Backend
@@ -31,9 +31,11 @@ Terminal 1: Setting Up Backend
 cd backend
 npm install
 npm start
+
 Create a file called .env in the backend folder. Inside it write this :
 
 MONGO_URL = mongodb://127.0.0.1/school
+
 If you are using MongoDB Compass you can use this database link but if you are using MongoDB Atlas then instead of this link write your own database link.
 
 Terminal 2: Setting Up Frontend
@@ -41,19 +43,20 @@ Terminal 2: Setting Up Frontend
 cd frontend
 npm install
 npm start
+
 Now, navigate to localhost:3000 in your browser. The Backend API will be running at localhost:5000.
 
 Error Solution
 You might encounter an error while signing up, either a network error or a loading error that goes on indefinitely.
 
 To resolve it:
-
 Navigate to the frontend > .env file.
 
 Uncomment the first line. After that, terminate the frontend terminal. Open a new terminal and execute the following commands:
 
 cd frontend
 npm start
+
 After completing these steps, try signing up again. If the issue persists, follow these additional steps to resolve it:
 
 Navigate to the frontend > src > redux > userRelated > userHandle.js file.
