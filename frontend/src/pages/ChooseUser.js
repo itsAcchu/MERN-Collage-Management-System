@@ -28,7 +28,7 @@ const ChooseUser = ({ visitor }) => {
   const navigateHandler = (user) => {
     if (user === "Admin") {
       if (visitor === "guest") {
-        const email = "yogendra@12"
+        const email = "acchureddy9535@gmail.com"
         const fields = { email, password }
         setLoader(true)
         dispatch(loginUser(fields, user))
@@ -41,7 +41,7 @@ const ChooseUser = ({ visitor }) => {
     else if (user === "Student") {
       if (visitor === "guest") {
         const rollNum = "1"
-        const studentName = "Dipesh Awasthi"
+        const studentName = "Acchu"
         const fields = { rollNum, studentName, password }
         setLoader(true)
         dispatch(loginUser(fields, user))

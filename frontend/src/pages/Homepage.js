@@ -17,14 +17,15 @@ const Homepage = () => {
                         <StyledTitle>
                             Welcome to
                             <br />
-                            School Management
+                            A I M L
                             <br />
-                            System
+                            Department
                         </StyledTitle>
                         <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
+                            Streamline Collage database management, class organization, and add students and faculty.
                             Seamlessly track attendance, assess performance, and provide feedback.
-                            Access records, view marks, and communicate effortlessly.
+                            Access records, view marks, and communicate effortlessly.<br/>
+                            <h5>BUILD-BY: "Jiya Agarwal, Madhu S, Munnelli Teja, Vivek M Kaushik".</h5>
                         </StyledText>
                         <StyledBox>
                             <StyledLink to="/choose">
